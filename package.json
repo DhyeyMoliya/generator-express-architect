@@ -1,6 +1,6 @@
 {
   "name": "generator-express-architect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A generator for Node.js application which uses Express server with open-source Architect framework from Cloud9.",
   "homepage": "",
   "author": {
