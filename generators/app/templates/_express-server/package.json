@@ -1,0 +1,14 @@
+{
+  "name": "express-server",
+  "version": "0.0.1",
+  "description": "Express server for Architect",
+  "main": "server.js",
+  "plugin": {
+    "consumes": [
+      "helloRouter"
+    ],
+    "provides": [
+      "server"
+    ]
+  }
+}

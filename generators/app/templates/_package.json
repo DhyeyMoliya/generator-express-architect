@@ -1,0 +1,26 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "description": "Base server for Node.js app using Architecture and Express.js",
+  "main": "server.js",
+  "dependencies": {
+    "architect": "^0.1.11",
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "morgan": "^1.8.1",
+    "pug": "^2.0.0-beta11",
+    "serve-favicon": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "architect",
+    "expressjs",
+    "dependency",
+    "injection"
+  ],
+  "license": "ISC"
+}
