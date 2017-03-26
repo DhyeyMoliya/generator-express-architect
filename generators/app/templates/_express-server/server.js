@@ -49,8 +49,10 @@ module.exports = function(options, imports, register){
 
     var port = options.port;
     var host = options.host;
-    app.listen(port, options);
-    console.log('Server started at http://0.0.0.0:'+port);
+    app.listen(port, host, function () {
+        console.log('Server started at http://0.0.0.0:' + port);
+        
+    });
 
     register(null, {
         onDestruct: function (callback) {
